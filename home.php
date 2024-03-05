@@ -41,7 +41,7 @@
                             <img src="img/R7.2.jpg" alt="Image 1">
 
                             <div class="slide-txt">
-                                <p>Flat 53</p>
+                                <p>Dark Bedroom</p>
                                 <p>Ipsum cillum quis eu eu culpa. Ullamco consectetur incididunt eiusmod proident ex aliqua fugiat exercitation est.</p>
                             </div>
                         </div>
@@ -80,6 +80,33 @@
                     <li></li>
                     <li></li>
                 </ul> -->
+            </div>
+        </div>
+
+        <div class="about-us">
+            <div class="about-1">
+                <h1>we turn ideas into works of art.</h1>
+                <p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other. The way we undertake projects is based on permanently applying values that reinforce each other: socio-cultural value, experiental value, building-technical value and economical value.</p>
+            </div>
+
+            <div class="about-2">
+                <p id="about-title">ABOUT GO.ARCH</p>
+    
+                <h1>our specialization:</h1>
+                <ul>
+                    <li><img src="img/icon-architecture.png" alt=""></li>
+                    <li><b>ARCHITECTURE</b></li>
+                    <li><img src="img/icon-interiors.png" alt=""></li>
+                    <li><b>INTERIORS</b></li>
+                    <li><img src="img/icon-planing.png" alt=""></li>
+                    <li><b>PLANING</b></li>
+                </ul>
+
+                <p id="project-title">OUR PROJECTS</p>
+            </div>
+
+            <div class="about-3">
+                <img src="img/380x370.jpg" style="width: 100%;" alt="">
             </div>
         </div>
     </main>
