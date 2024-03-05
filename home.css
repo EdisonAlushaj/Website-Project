@@ -23,24 +23,34 @@ header{
     padding-left: 0;
 }
 
+header>h2{
+    margin-right: 3em;
+}
+
 header>ul>li>a{
     text-decoration: none;
     color: white;
 }
 
+.cover{
+    width: 100%;
+    height: 41em;
+    display: flex;
+}
+
 .slider{
     width: 100%;
-    height: 50em;
+    height: 100%;
     position: relative;
     z-index: -1;
-    margin-top: -3em;
+    margin-top: -4em;
 }
 
 .slider-container {
     position: absolute;
     width: 100%;
     overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .slides {
@@ -59,22 +69,81 @@ header>ul>li>a{
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
 }
+
+.slide-txt{
+    position: absolute;
+    z-index: 3;
+    width: 30em;
+    margin-top: -30em;
+    margin-left: 55em;
+    text-align: right;
+}
+
+.slide-txt :first-child{
+    font-size: 5em;
+    margin-top: 0;
+}
+
+.slide-txt :nth-child(2){
+    font-size: 1.3em;
+    margin-top: -2em;
+}
+
 
 .prev, .next {
     position: absolute;
-    top: 50%;
+    top: 42%;
     transform: translateY(-50%);
     font-size: 24px;
     cursor: pointer;
     /* color: #262626; */
     color: white;
+    z-index: 2;
 }
 
 .prev {
-    left: 10px;
+    left: 6.5em;
 }
 
 .next {
-    right: 10px;
+    left: 11.5em;
+}
+
+.cover-num{
+    position: absolute;
+    width: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+    background-color: #2b2b2b;
+    z-index: -1;
+}
+
+#num{
+    font-size: 5em;
+    color: #c5a47e;
+}
+
+.cover-social{
+    position: absolute;
+    width: 8em;
+    height: 28.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2b2b;
+    z-index: -1;
+    margin-top: 12.6em;
+}
+
+#transparent-txt{
+    position: absolute;
+    font-size: 10em;
+    opacity: 5%;
+    margin-top: 0.5em;
+    margin-left: -0.1em;
 }
